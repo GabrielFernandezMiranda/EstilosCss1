@@ -1,6 +1,6 @@
 div{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: aquamarine;
 }
 p{
@@ -46,13 +46,13 @@ button:hover{
 input:disabled{
     background-color: black;
 }
-p::first-line{
+/*p::first-line{
     color: blue;
 }
 p::first-letter{
     color: red;
     font-size: 45px;
-}
+}*/
 .capibara1, .capibara2 , .capibara3{
     width: 100px;
     height: 100px;
@@ -60,4 +60,53 @@ p::first-letter{
 }
 .padre p{
     color:  red;
+}
+
+p#unico.foo.bar{
+    color: rebeccapurple!important;
+}
+
+p#unico.foo.bar.baz{
+    color: rgb(51, 153, 82);
+}
+
+.main{
+    color: #e90af5;
+   border:2px solid black;
+   padding: 1em;
+}
+.special{
+    color: red;
+    font-weight: bold;
+    border:2px solid black;
+}
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: lightcoral;
+}
+.cajita{
+    width: 50%;
+    height: 250px;
+    background-color: aquamarine;
+}
+.cajainterior{
+    width: 50%;
+    height: 50%;
+    background-color: #e90af5;
+}
+
+.cajainterior p{
+    font-size: 4rem;
+    color: black;
+}
+body{
+    margin: 0;
+}
+.pading{
+    width: 250px;
+    height: 250px;
+    background-color: #5f0b63;
+    border-left: 12px solid blue;
+    border-right: 12px solid blue;
 }
